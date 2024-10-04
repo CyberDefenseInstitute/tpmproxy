@@ -1,6 +1,6 @@
 module github.com/CyberDefenseInstitute/tpmproxy
 
-go 1.23.1
+go 1.22
 
 require (
 	github.com/google/go-tpm v0.9.1

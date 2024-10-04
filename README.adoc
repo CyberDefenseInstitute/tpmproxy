@@ -2,7 +2,12 @@
 
 TPMProxy is a library that proxies TPM communications, makes them analyzable, and supports tampering.
 It also provides several tools as usage examples of the library.
+
+== Disclaimer
+
 The purpose of TPMProxy is to support TPM application development and security research.
+TPMProxy intentionally lowers security for communication analysis.
+Do not use in a production environment.
 
 == Features
 
@@ -18,7 +23,7 @@ All features are available only on Linux. Windows and Mac are not supported.
 [bash]
 ----
 $ swtpm socket --tpmstate dir=path/to/state --tpm2 --server port=2321 --ctrl type=tcp,port=2322
-$ go run github.com/CyberDefenseInstitute/tpmproxy/example/qemu_swtpm_dissect
+$ go run github.com/CyberDefenseInstitute/tpmproxy/example/qemu_swtpm_dissect@latest
 $ qemu-system-x86_64 \
     ...options... \
     -chardev socket,id=chrtpm,path=/tmp/qemu_swtpm_fwd.sock \
