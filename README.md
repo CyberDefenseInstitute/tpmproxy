@@ -33,3 +33,8 @@ $ qemu-system-x86_64 \
 ![dissect](img/dissect.webp)
 
 ![tamper](img/tamper.webp)
+
+## More detailed usage examples (blog posts)
+
+* [Capturing and Tampering TPM Communication in Windows Virtual Machines](https://io.cyberdefense.jp/en/entry/capturing-and-tampering-tpm-communication-in-windows-virtual-machines/)
+* [Experience Stealing BitLocker Keys from TPM Communication and Decrypting an Encrypted Volume Using an Emulator](https://io.cyberdefense.jp/en/entry/experience-stealing-bitlocker-keys-from-tpm-communication-and-decrypting-an-encrypted-volume-using-an-emulator/)
